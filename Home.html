@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Options</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="pricing-box">
+      <h1 class="title">YAY! It's BOGO</h1>
+      <div class="pricing-option" id="option1">
+        <label>
+          <input type="radio" name="pricing" id="radio1" onclick="handleSelection(1)">
+          <div class="pricing-details">
+            <p>1 Unit <span class="discount">10% Off</span></p>
+            <p>Standard Price</p>
+          </div>
+          <div class="price">
+            <p class="final-price">$10.00 USD</p>
+            <p class="original-price">$24.00 USD</p>
+          </div>
+        </label>
+        <div class="selectors" id="selectors1">
+          <div class="selector-row">
+            <div class="size">
+              <label for="size1">#1 Size</label>
+              <select id="size1">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="color">
+              <label for="color1">Color</label>
+              <select id="color1">
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="pricing-option most-popular" id="option2">
+    <label>
+      <input type="radio" name="pricing" id="radio2" onclick="handleSelection(2)">
+      <div class="pricing-details">
+        <p>2 Unit <span class="discount">20% Off</span></p>
+        <p>Standard Price</p>
+      </div>
+      <div class="price">
+        <p class="final-price">$18.00 USD</p>
+        <p class="original-price">$24.00 USD</p>
+      </div>
+    </label>
+    <div class="most-popular-badge">Most Popular</div>
+    <div class="selectors" id="selectors2">
+      <div class="selector-row">
+        <div class="size">
+          <label for="size2">#1 Size</label>
+          <select id="size2">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+        </div>
+        <div class="color">
+          <label for="color2">Color</label>
+          <select id="color2">
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+          </select>
+        </div>
+      </div>
+  
+      <div class="selector-row">
+        <div class="size">
+          <label for="size2-2">#2 Size</label>
+          <select id="size2-2">
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+          </select>
+        </div>
+        <div class="color">
+          <label for="color2-2">Color</label>
+          <select id="color2-2">
+            <option>Black</option>
+            <option>White</option>
+            <option>Red</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+      <div class="pricing-option" id="option3">
+        <label>
+          <input type="radio" name="pricing" id="radio3" onclick="handleSelection(3)">
+          <div class="pricing-details">
+            <p>3 Unit <span class="discount">30% Off</span></p>
+            <p>Standard Price</p>
+          </div>
+          <div class="price">
+            <p class="final-price">$24.00 USD</p>
+            <p class="original-price">$24.00 USD</p>
+          </div>
+        </label>
+        <div class="selectors" id="selectors3">
+          <div class="selector-row">
+            <div class="size">
+              <label for="size3">#1 Size</label>
+              <select id="size3">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="color">
+              <label for="color3">Color</label>
+              <select id="color3">
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="selector-row">
+            <div class="size">
+              <label for="size3-2">#2 Size</label>
+              <select id="size3-2">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="color">
+              <label for="color3-2">Color</label>
+              <select id="color3-2">
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="selector-row">
+            <div class="size">
+              <label for="size3-3">#3 Size</label>
+              <select id="size3-3">
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+            </div>
+            <div class="color">
+              <label for="color3-3">Color</label>
+              <select id="color3-3">
+                <option>Black</option>
+                <option>White</option>
+                <option>Red</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="summary">
+        <p class="free-delivery">Free Delivery</p>
+        <p class="total">Total: <span id="total-price">$0.00 USD</span></p>
+      </div>
+
+      <button class="add-to-cart">+ Add to Cart</button>
+
+      <p class="powered">Powered by Pumper</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
